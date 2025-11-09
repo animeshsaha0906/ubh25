@@ -62,4 +62,3 @@ Minimal demo rules are in **firestore.rules**. For production, tighten writes an
 ---
 **Stretch ideas:** translation toggle, presence/typing, staff verification, richer analytics.
 # UBHackathon25
-# ubh25
