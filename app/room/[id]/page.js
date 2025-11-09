@@ -7,6 +7,8 @@ import Message from "@/components/Message";
 import ChatInput from "@/components/ChatInput";
 import "./chatRoom.css";
 
+export const runtime = "edge";
+
 export default function RoomPage() {
   const params = useParams();
   const id = useMemo(() => decodeURIComponent(params?.id || ""), [params?.id]);
